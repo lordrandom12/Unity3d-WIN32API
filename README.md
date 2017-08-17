@@ -1,7 +1,7 @@
 # Unity3d-WIN32API
 using win32 API for unity3d desktop applications
 
-today you can use directrly the system32 dlls that are inside your computer with some reflection tricks that are available through c#.
+today you can use directly the system32 dlls that are inside your computer with some reflection tricks that are available through c#.
 The core idea of this project is to wrap those abilities and to enable the basic dialogs of windows from within windows-desktop-unity-application.
 
 today i already wrapped 3 basic Dialogs:
