@@ -13,20 +13,24 @@ by puting the code file inside your unity project you can use the C# classe as y
 
 An example for using OpenFileDialog:
 
+```csharp
 OpenFileDialog ofd = new OpenFileDialog(); 
 ofd.filter = "All files/0*.*/0PNG files(*.png)/0*.png/0/0";
 if (ofd.Show())
 {
   Debug.Log(ofd.file)
 }
+```
 
 An simple example for using MessageBox:
+```csharp
 MessageBox.Show("This is the title","This is the text!");
-
+```
 Or a more complex one:
+```csharp
 if (MessageBox.Show("","There are two buttons", MessageBoxButtons.MessageBoxButtons) == DialogResult.OK)
 {
   MessageBox.Show("Suprise!","You clicked OK");
 }
-
+```
 Please fill free to wrap more functions inside this git
