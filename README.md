@@ -28,7 +28,7 @@ MessageBox.Show("This is the title","This is the text!");
 ```
 Or a more complex one:
 ```csharp
-if (MessageBox.Show("","There are two buttons", MessageBoxButtons.MessageBoxButtons) == DialogResult.OK)
+if (MessageBox.Show("","There are two buttons", MessageBoxButtons.OKCancel) == DialogResult.OK)
 {
   MessageBox.Show("Suprise!","You clicked OK");
 }
